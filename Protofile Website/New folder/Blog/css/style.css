@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    position:unset absolute;
+
+}
+
+.mainareas{
+    width: 700px;
+    height: fit-content;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 20px;
+    line-height: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainareas h1{
+    padding: 20px 0px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2';
+}
+
+.logo{
+    display: inline-block;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.tabs{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: -70px;
+}
+
+.tabs h1{
+    display: inline-block;
+    padding-left: 50px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.tabs h1 a{
+    text-decoration: none;
+    color: black;
+    cursor:auto;
+}
+
+.searchbar{
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    top: -70px;
+}
+
+.searchbar input{
+    width: 290px;
+    height: 50.82px;
+    font-size: 20px;
+    border: .1rem solid black;
+    border-right: 2px solid white;
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+.searchbar .btn{
+    position: absolute;
+    left: 280px;
+    top: 0px;
+    height: 54px;
+    width: 100px;
+    background: rgb(255, 255, 255);
+    border: .1rem solid black;
+    font-size: 0.2in;
+}
+
+.searchbar .btn:hover{
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+
+
+.Content-L{
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    text-align: justify;
+}
+
+.Content-L p {
+    line-height: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Content-L h1{
+    text-align: center;
+    bottom: 20px;
+    position: relative;
+    font-family: 'Baloo Bhai 2';
+}
+
+.Content-R img{
+    width: 500px;
+    display: inline-block;
+    border-radius: 2000px;
+    border: 0.1rem solid black;
+    position:relative;
+    left: 700px;
+    top: -20px;
+    animation: Home 5s linear infinite;
+}
+
+@keyframes Home{
+    0%{
+        top: -100px;
+    }
+    25%{
+        top: -70px;
+    }
+    50%{
+        top: -100px;
+    }
+    75%{
+        top: -70px;
+    }
+    100%{
+        top: -100px;
+    }
+}
+
+.hr{
+    width: 90%;
+    margin: auto;
+}
+
+.Article-1 .Left img{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+.Article-1 .Left{
+    display: inline-block;
+}
+
+.Article-1 .Right{
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    top: -80px;
+}
+
+.Article-1 .Right h1{
+    font-family: 'Baloo Bhai 2';
+}
+
+.Article-1 .Right p{
+    line-height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.Article-2 .Left img{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -100px;
+    left: 70px;
+}
+
+.Article-2 .Left{
+    display: inline-block;
+}
+
+.Article-2 .Right{
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    top: -190px;
+}
+
+.Article-2 .Right h1{
+    font-family: 'Baloo Bhai 2';
+}
+
+.Article-2 .Right p{
+    line-height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Article-3 .Left img{
+    position: relative;
+    top: -200px;
+    left: 70px;
+}
+
+.Article-3 .Left{
+    display: inline-block;
+}
+
+.Article-3 .Right{
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    top: -290px;
+}
+
+.Article-3 .Right h1{
+    font-family: 'Baloo Bhai 2';
+}
+
+.Article-3 .Right p{
+    line-height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.Articles .h h1{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Baloo Bhai 2';
+}
+
+@keyframes bgm {
+    0%{background: #ffff;}
+    50%{background: rgba(0, 0, 0, 0.466); color: white;}
+    100%{background: black; color: white;}
+}
+
+footer{
+    background:linear-gradient(lightblue , lightgreen);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2';
+}
+
+footer img {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    top: 5px;
+}
+
+
+.form{
+    width: 950px;
+    height:900px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    border: .1rem solid black;
+}
+
+.form form .h-1 {
+    display: inline-block;
+}
+.form form .h-2 {
+    display: inline-block;
+}
+.form form .h-3 {
+    display: inline-block;
+}
+.form form .h-4 {
+    display: inline-block;
+}
+.form form .h-5 {
+    display: inline-block;
+}
+
+.form form div{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.form form .Help{
+    margin-top: 50px;
+}
+.form form #Name{
+    width: 200px;
+    height: 30px;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+    border: 2px solid black;
+    position: absolute;
+    left: 495px;
+}
+.form form #Phone{
+    width: 200px;
+    height: 30px;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+    border: 2px solid black;
+    position: absolute;
+    left: 495px;
+}
+.form form #email{
+    width: 200px;
+    height: 30px;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+    border: 2px solid black;
+    position: absolute;
+    left: 495px;
+}
+.form form .Help{
+    margin-top: 50px;
+}
+
+.form form .Name h1{
+    font-family: 'Baloo Bhai 2';
+
+}
+
+.form form .Phone h1{
+    font-family: 'Baloo Bhai 2';
+}
+.form form .email h1{
+    font-family: 'Baloo Bhai 2';
+}
+
+.form form .Help h1{
+    font-family: 'Baloo Bhai 2';
+    margin-bottom: 20px;
+}
+
+.form{
+    border-radius: 20px;
+    margin-bottom: 200px;
+}
+
+.form form button {
+    width: 150px;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form form button:hover{
+    animation: bgm 1.5s linear infinite;
+}

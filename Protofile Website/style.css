@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+}
+
+body{
+    background: #262d37e8;
+}
+
+.navbar nav .logo img {
+    width: 103px;
+    height: 103px;
+
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+
+.navbar nav .tabs h2{
+    display: inline-block;
+    position:relative;
+    padding-right: 20px;
+    left:400px;
+    top: -75px;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 22px;
+    text-decoration: double;
+    text-align: center;
+    transition: font-size 2s;
+}
+.navbar nav .tabs h2:hover{
+    display: inline-block;
+    position:relative;
+    padding-right: 20px;
+    left:400px;
+    top: -75px;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 24px;
+    text-decoration: double;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.navbar{
+    background: #262d37;
+    height: 101px;
+    position:sticky;
+    z-index: 222222222222222222222;
+}
+
+.searchbar{
+    display: inline;
+    position: absolute;
+    top: 30px;
+    left: 1000px;
+}
+
+.search{
+    width: 250px;
+    display: inline-block;
+    background: #262d37;
+    color: aliceblue;
+}
+.search:focus{
+    width: 250px;
+    display: inline-block;
+    background: #262d37;
+    color: aliceblue;
+}
+
+.btnbar{
+    border: 0.1px solid rgba(255, 255, 255, 0.801);
+    color: rgba(255, 255, 255, 0.801);
+    width: 75px ;
+    height: 37px;
+    border-radius: 6px;
+    transition: background 1s;
+    background: #262d37;
+
+}
+.btnbar:hover{
+    border: 0.1px solid rgba(255, 255, 255, 0.801);
+    color: #262d37;
+    width: 75px ;
+    height: 37px;
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+}
+
+.Content-L{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Content-L h1{
+    font-size: 50px;
+    filter: invert(100%);
+
+}
+.Content-L h2{
+    font-size: 40px;
+    filter: invert(100%);
+}
+.Content-L h5{
+    filter: invert(100%);
+}
+
+.Content-R{
+    display: inline-block;
+    position: relative;
+    left: 320px;
+}
+
+.Content-R img{
+    width: 550px;
+    height: 550px;
+    position: relative;
+
+    top: 20px;
+}
+
+.Content-L img{
+    width: 100px;
+}
+
+
+.Content-L .btn{
+    width: 120px;
+    height: 50px;
+    background: #fff;
+    color: #262d37;
+    position: relative;
+    top: 20px;
+}
+
+.Content-L .btn:hover{
+    width: 120px;
+    height: 50px;
+    background: #262d37e8;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+.About{
+    position:relative;
+    top: 100px;
+}
+
+.About h1{
+    color: rgba(240, 248, 255, 0.349);
+}
+
+.Content-W{
+    filter: grayscale(10%);
+    display: inline-block;
+    position: absolute;
+}
+
+.Content-E{
+    top: 100px;
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.Content-E h5{
+    position: relative;
+    left: 120px;
+    text-transform: capitalize;
+}
+
+.Content-E h1{
+    text-transform:uppercase ;
+    text-decoration: underline;
+}
+
+.Pro img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 300px;
+    left: 205px;
+    letter-spacing: 1ch;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+
+    display: inline-flex;
+    justify-content: center;
+}
+
+.Projects h1{
+    position: relative;
+    top:3in;
+    text-align: center;
+}
+
+.Review {
+    position: relative;
+    top: 400px;
+    width: fit-content;
+    margin: auto;
+}
+
+.Review .V-1{
+    width: 350px;
+    height: 400px;
+    background:#262d37;
+    text-align: center;
+    display: inline-block;
+    margin-left: 25px;
+    border-radius: 25px;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.Review .V-1 h3{ 
+    margin-top: 50px;
+}
+
+.Contact{
+    width: 700px;
+    height: 355px;
+    margin:  450px 10px 0px 25%;
+    background: #000;
+}
+
+.Contact input{
+    width: 350px;
+    height: 50px;
+    margin:0px auto;
+}
+
+.footer{
+    position: relative;
+    top: 450px;
+    background: #262d37;
+    display: inline-block;
+    width: 100%;
+}
+
+.footer img:hover{
+    filter: invert(100%);
+}

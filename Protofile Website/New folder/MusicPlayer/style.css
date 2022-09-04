@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap');
+
+body{
+    /* background:rgb(247, 243, 243); */
+    background-color: #fff;
+}
+
+.MainPlayer{
+    height: 500px;
+    width: 390px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.img img{
+    border-radius: 5000cm;
+    height: 200px;
+    width: 300px;
+    margin:0px 40px;
+}
+#btn #Pause img{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+#btn #Pause{
+    background-color: #fff;
+    border: none;
+    
+}
+
+
+#btn #forward img{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+#btn #forward{
+    background-color: #fff;
+    border:  none;
+}
+
+
+#btn #backward img{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+#btn #backward{
+    margin-left: 90px;
+    margin-top: 50px;
+    background-color: #fff;
+    border:  none;
+}
+
+.Title_Singer{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Baloo Bhai 2',cursive;
+    /* margin-left: 110px; */
+}
+h3{
+    font-family: 'Baloo Bhai 2',cursive;
+    /* margin-left: 125px; */
+}
+
+.btn img{
+    height: 60px;
+    width: 60px;
+}
+#BackWard{
+    margin-left: 50px;
+    border: none;
+    background-color: #fff;
+}
+#Pause{
+    margin: 20px;
+    border: none;
+    background-color: #fff;
+}
+
+#forward{
+    background: #fff;
+    border: none;
+}
+
+.btn{
+    background: #fff;
+    border: none;
+    margin: 22px 20px;
+    display: inline-block;
+}
+
+#Khadh1{
+    font-size: 30px;
+}

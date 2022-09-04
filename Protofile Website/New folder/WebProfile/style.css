@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'baloo bhai 2',cursive;
+}
+
+.NavBar{
+    background-color:#31302E;
+    width: 400px;
+    /* max-width: 300px; */
+    height: 625px;
+    font-family: 'baloo bhai 2',cursive;
+    display: inline-block;
+    position: fixed;
+}
+
+.NavBar h1{
+    width: 399px;
+    margin: 20px 100px;
+    color: white;
+}
+
+.NavBar a{
+    color: rgba(255, 255, 255, 0.959);
+    text-decoration: none;
+}
+
+.NavBar a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.logo{
+    margin: 0px 270px;
+}
+
+.Dashboard{
+    display: inline-block;
+    padding-left: 100px;
+    text-shadow:black;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.slider{
+    animation: Slider 10s ease-in-out infinite;
+    width: 250px;
+    height: 250px;
+    background: url('https://5.imimg.com/data5/YE/ME/SH/SELLER-59465195/d3-jpg-250x250.jpg');
+    display: inline-block;
+}
+
+.slider1{
+    animation: Slider1 10s ease-in-out infinite;
+    width: 250px;
+    height: 250px;
+    background: url('https://5.imimg.com/data5/YE/ME/SH/SELLER-59465195/d3-jpg-250x250.jpg');
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+@keyframes Slider {
+    0%{
+        background: url('https://heycrystalsmith.com/wp-content/uploads/2019/01/ele2-1-250x250.jpg');
+    }
+
+    25%{
+        background: url('https://i.pinimg.com/474x/db/6e/c8/db6ec8e3d093eef08c684e2c764a1c82.jpg');
+    }
+
+    50%{
+        background: url('https://i.pinimg.com/474x/3e/91/ef/3e91efb4b82ec4e1b5dd564f96a2cb06.jpg');
+    }
+
+    75%{
+        background: url('https://5.imimg.com/data5/CT/DF/PU/SELLER-86987921/akshay-jpg-250x250.jpg');
+    }
+
+    100%{
+        background: url('https://heycrystalsmith.com/wp-content/uploads/2019/01/ele2-1-250x250.jpg');
+    }
+
+}
+
+
+@keyframes Slider1 {
+    0%{
+        background: url('https://i.pinimg.com/474x/db/6e/c8/db6ec8e3d093eef08c684e2c764a1c82.jpg');
+    }
+    
+    25%{
+        background: url('https://heycrystalsmith.com/wp-content/uploads/2019/01/ele2-1-250x250.jpg');
+    }
+
+    50%{
+        background: url('https://content3.jdmagicbox.com/comp/mumbai/f6/022pxx22.xx22.121019123852.p8f6/catalogue/amit-parekh-art-at-home-tardeo-mumbai-drawing-classes-un3z10kbqy-250.jpg');
+    }
+    
+    75%{
+        background: url('https://heycrystalsmith.com/wp-content/uploads/2019/01/ele2-1-250x250.jpg');
+    }
+    
+    100%{
+        background: url('https://i.pinimg.com/474x/3e/91/ef/3e91efb4b82ec4e1b5dd564f96a2cb06.jpg');
+    }
+
+}
+
+.Dashboard p{
+    font-size: 25px;
+}
+
+
+
+.Dashboard img{
+    height: 200px;
+    width: 200px;
+}
